@@ -10,9 +10,12 @@ namespace ConsoleLavoroGit
     {
         static void Main(string[] args)
         {
-            string risultato;
-            int num = 255;
-            risultato = "";
+            string risultato = "";
+            int num = 0;
+
+            Console.WriteLine("inserisci numero da convertire:");
+            num = Convert.ToInt32(Console.ReadLine());
+
             while (num > 1)
             {
                 int resto = num % 2;
